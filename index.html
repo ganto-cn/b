@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				font-family: 幼圆;
+			}
+			body{
+				/* background: rgb(9, 174, 176); */
+				display: flex;
+				justify-content: center;
+				/* color: wheat; */
+			}
+			.con{
+				width: 700px;
+				margin-top: 20px;
+			}
+			.p{
+				width: 100%;
+				line-height: 2rem;
+			}
+			.img{
+				font-size: 0;
+				border: 1px solid #eee;
+			}
+			.img img{
+				width: 100%;
+				height: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				for(var i = 1; i <= 18; i++){
+					console.log(i);
+					$(".img").append("<img src='img/"+ i +".jpg'>");
+				}
+			})
+		</script>
+		
+		<div class="con">
+			<div class="p" style="color: green;text-align: center;font-size: 50px;font-weight: 900;margin: 20px 0;">B站NP</div>
+			<div class="p">b站账号（ganto_xyz）被永久封禁（2020.03.14 上午10:34）</div>
+			<div class="p">被永久封禁原因: 色情签名</div>
+			<div class="p">签名内容: website：http://ganto.xyz</div>
+			<div class="p">签名内容是我的个人网站地址，website意为网站</div>
+			<div class="p">对于被封禁的猜测，使用了“gan”敏感词汇</div>
+			<div class="p">被b站客服来回踢了几回合之后，我总结到：工作人员的判定就是真理，没有任何平反的机会。</div>
+			<div class="p">就算你们联系一亿个客服，客服能做的也只是问工作人员，而工作人员只会根据第一次判定的结果回复给客服，显然返回给我的数据永远是false，跟本没有平反的可能，即便是工作人员判定错了。</div>
+			<div class="p" style="color: teal;text-align: center;font-size: 20px;font-weight: 900;margin: 20px 0;">下面是我和b站客服的对话记录</div>
+			<div class="img">
+				
+			</div>
+		</div>
+	</body>
+</html>
